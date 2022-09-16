@@ -12,4 +12,8 @@ export class AdderComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  getSum() {
+    return Number(this.n1) + Number(this.n2);
+  }
 }
