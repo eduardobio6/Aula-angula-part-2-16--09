@@ -1,2 +1,5 @@
 <h2>Somador</h2>
-<div>{{ n1 }} + {{ n2 }} = {{ getSum() }}</div>
+<div>
+  <input [(ngModel)]="n1" type="number" /> +
+  <input [(ngModel)]="n2" type="number" /> {{ n1 }} + {{ n2 }} = {{ getSum() }}
+</div>
